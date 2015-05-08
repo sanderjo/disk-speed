@@ -42,6 +42,16 @@ $ sudo hdparm -tT /dev/sda6 | tail -1
  Timing buffered disk reads: 618 MB in  3.00 seconds = 205.86 MB/sec
 ```
 
+# Results
+
+Disk type  | Result in Mbytes/s
+------------- | -------------
+SSD  | 132.7
+Flash card  | 18.1
+SFTP mount over Internet | 0.57
+
+
+
  
 
 
