@@ -6,7 +6,7 @@ The measurement will take 0.5 second.
 
 # Purpose
 
-Loosely measure the speed of a 'disk', in order to realize the speed difference between a SSD and a Cloud mount.
+Loosely measure the speed of a 'disk', in order to note the speed difference between a SSD and a Cloud mount.
 
 # Usage:
 
