@@ -16,7 +16,7 @@ $ ./disk-speed.py
 Absolute path of filename  /home/sander/disk-speed/outputTESTING.txt
 Disk writing speed: 154.509901638 Mbytes per second
 ```
-FWIW: this is a SSD.
+
 
 
 With a parameter specifying the directory to be tested:
