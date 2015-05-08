@@ -42,6 +42,11 @@ print diskspeed.diskspeedmeasure('/tmp')
 print diskspeed.diskspeedmeasure('/tmp/')
 print diskspeed.diskspeedmeasure('/tmp/blabla.txt')
 ```
+or
+```
+from some.path.diskspeed import diskspeedmeasure
+print diskspeedmeasure('/tmp')
+```
 
 # Accuracy
 
