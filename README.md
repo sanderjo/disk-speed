@@ -61,7 +61,10 @@ $ sudo hdparm -tT /dev/sda6 | tail -1
 Disk type  | Result in Mbytes/s
 ------------- | -------------
 SSD  | 132.7
+eMMC | 62.4
 Flash card  | 18.1
+Flash card (Raspi) | 3.6
+Some NAS on LAN | 2.2
 SFTP mount over Internet | 0.57
 
 
