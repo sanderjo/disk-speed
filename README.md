@@ -33,7 +33,15 @@ $ ./diskspeed.py '/run/user/1000/gvfs/sftp:host=server.example.com,port=2222/hom
 Absolute path of filename  /run/user/1000/gvfs/sftp:host=server.example.com,port=2222/home/sander/outputTESTING.txt
 Disk writing speed: 0.569606459526 Mbytes per second
 ```
-Note the difference in speed.
+
+# Usage Module
+
+```
+import diskspeed
+print diskspeed.diskspeedmeasure('/tmp')
+print diskspeed.diskspeedmeasure('/tmp/')
+print diskspeed.diskspeedmeasure('/tmp/blabla.txt')
+```
 
 # Accuracy
 
