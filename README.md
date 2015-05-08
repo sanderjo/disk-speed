@@ -1,5 +1,6 @@
 # disk-speed
-Measure disk speed from Python. Disk can be SSD, HDD, eMMC, flash drive, NAS, Cloud, as long as it is mounted.
+Measure disk speed from Python by writing to disk. 
+The disk can be SSD, HDD, eMMC, flash drive, NAS, Cloud, as long as it is mounted and writable.
 
 The measurement will take 0.5 second.
 
