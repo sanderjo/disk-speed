@@ -13,7 +13,7 @@ Loosely measure the speed of a 'disk', in order to realize the speed difference 
 Without parameter:
 
 ```
-$ ./disk-speed.py 
+$ ./diskspeed.py 
 Absolute path of filename  /home/sander/disk-speed/outputTESTING.txt
 Disk writing speed: 154.509901638 Mbytes per second
 ```
@@ -22,14 +22,14 @@ Disk writing speed: 154.509901638 Mbytes per second
 
 With a parameter specifying the directory to be tested:
 ```
-$ ./disk-speed.py /home/sander/
+$ ./diskspeed.py /home/sander/
 Absolute path of filename  /home/sander/outputTESTING.txt
 Disk writing speed: 143.504647188 Mbytes per second
 ```
 
 With a different directory specified, in this case a mount on a remote server
 ```
-$ ./disk-speed.py '/run/user/1000/gvfs/sftp:host=server.example.com,port=2222/home/sander/'
+$ ./diskspeed.py '/run/user/1000/gvfs/sftp:host=server.example.com,port=2222/home/sander/'
 Absolute path of filename  /run/user/1000/gvfs/sftp:host=server.example.com,port=2222/home/sander/outputTESTING.txt
 Disk writing speed: 0.569606459526 Mbytes per second
 ```
