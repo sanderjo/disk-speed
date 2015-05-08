@@ -3,7 +3,11 @@ Measure disk speed from Python. Disk can be SSD, HDD, MMC, flash drive, NAS, Clo
 
 The measurement will take 0.5 second.
 
-Usage:
+# Purpose
+
+Loosely measure the speed of a 'disk', in order to realize the speed difference between a SSD and a Cloud mount.
+
+# Usage:
 
 Without parameter:
 
@@ -30,7 +34,7 @@ Disk writing speed: 0.569606459526 Mbytes per second
 ```
 Note the difference in speed.
 
-Accuracy
+# Accuracy
 
 Speed measured this speed is not too far away from the Real Stuff with hdparm:
 ```
