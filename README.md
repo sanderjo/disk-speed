@@ -64,9 +64,10 @@ SSD  | 132.7
 eMMC | 62.4
 Flash card  | 18.1
 Flash card (Raspi) | 3.6
+Lacie NAS on wired LAN | 3.2
 Some NAS on LAN | 2.2
 SFTP mount over Internet | 0.57
-
+Lacie NAS via WLAN | 0.21
 
 
  
