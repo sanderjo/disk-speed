@@ -48,7 +48,6 @@ Done
 import diskspeed
 print diskspeed.diskspeedmeasure('/tmp')
 print diskspeed.diskspeedmeasure('/tmp/')
-print diskspeed.diskspeedmeasure('/tmp/blabla.txt')
 ```
 or
 ```
