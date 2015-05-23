@@ -33,6 +33,14 @@ $ ./diskspeed.py '/run/user/1000/gvfs/sftp:host=server.example.com,port=2222/hom
 Absolute path of filename  /run/user/1000/gvfs/sftp:host=server.example.com,port=2222/home/sander/outputTESTING.txt
 Disk writing speed: 0.569606459526 Mbytes per second
 ```
+Speed of a NAS on my LAN mounted via SMB:
+```
+$ python diskspeed.py '/run/user/1000/gvfs/smb-share:server=192.168.1.165,share=share'
+Let's go
+Disk writing speed: 0.69 Mbytes per second
+Done
+
+```
 
 # Usage Module
 
